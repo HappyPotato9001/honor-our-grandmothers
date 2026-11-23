@@ -168,9 +168,9 @@ window.MemorialI18n = {
       postedSuccess: "Your tribute has been added to the Community Wall.",
       removeBtn: "Remove",
       emptyWall: "No entries match this filter yet.",
-      badgeCandle: "🕯️ Tribute Candle",
-      badgePledge: "🤝 Volunteer Pledge",
-      badgeMessage: "💛 Solidarity Message",
+      badgeCandle: "Tribute Candle",
+      badgePledge: "Volunteer Pledge",
+      badgeMessage: "Solidarity Message",
       justNow: "Just now"
     },
     footer: {
@@ -351,9 +351,9 @@ window.MemorialI18n = {
       postedSuccess: "你嘅致敬已經張貼到社區牆。",
       removeBtn: "移除",
       emptyWall: "暫時未有符合此篩選嘅留言。",
-      badgeCandle: "🕯️ 致敬燭光",
-      badgePledge: "🤝 義務承諾",
-      badgeMessage: "💛 團結留言",
+      badgeCandle: "致敬燭光",
+      badgePledge: "義務承諾",
+      badgeMessage: "團結留言",
       justNow: "剛剛"
     },
     footer: {
@@ -534,9 +534,9 @@ window.MemorialI18n = {
       postedSuccess: "您的致敬已发布到社区墙。",
       removeBtn: "移除",
       emptyWall: "暂无符合该筛选条件的留言。",
-      badgeCandle: "🕯️ 致敬烛光",
-      badgePledge: "🤝 志愿承诺",
-      badgeMessage: "💛 团结留言",
+      badgeCandle: "致敬烛光",
+      badgePledge: "志愿承诺",
+      badgeMessage: "团结留言",
       justNow: "刚刚"
     },
     footer: {
@@ -717,9 +717,9 @@ window.MemorialI18n = {
       postedSuccess: "Naidagdag na ang iyong pagpupugay sa Pader ng Komunidad.",
       removeBtn: "Alisin",
       emptyWall: "Wala pang paskil sa kategoryang ito.",
-      badgeCandle: "🕯️ Kandila ng Pagpupugay",
-      badgePledge: "🤝 Pangako ng Boluntaryo",
-      badgeMessage: "💛 Mensahe ng Pakikiisa",
+      badgeCandle: "Kandila ng Pagpupugay",
+      badgePledge: "Pangako ng Boluntaryo",
+      badgeMessage: "Mensahe ng Pakikiisa",
       justNow: "Ngayon lang"
     },
     footer: {
@@ -900,9 +900,9 @@ window.MemorialI18n = {
       postedSuccess: "Lời tri ân của bạn đã được thêm vào Bức tường cộng đồng.",
       removeBtn: "Gỡ bỏ",
       emptyWall: "Chưa có bài đăng nào trong mục này.",
-      badgeCandle: "🕯️ Nến tri ân",
-      badgePledge: "🤝 Cam kết tình nguyện",
-      badgeMessage: "💛 Lời nhắn đoàn kết",
+      badgeCandle: "Nến tri ân",
+      badgePledge: "Cam kết tình nguyện",
+      badgeMessage: "Lời nhắn đoàn kết",
       justNow: "Vừa xong"
     },
     footer: {
