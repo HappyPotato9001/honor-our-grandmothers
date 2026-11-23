@@ -17,7 +17,7 @@ window.MemorialI18n = {
       langAnnounce: "Language switched to English"
     },
     nav: {
-      brand: "Honor Our Grandmothers",
+      brand: "Targeted in Plain Sight",
       menu: "Zones",
       zonesLabel: "Memorial Zones",
       zone1: "I. Foundations",
@@ -29,8 +29,8 @@ window.MemorialI18n = {
     },
     hero: {
       eyebrow: "Digital Memorial & Intersectional Archive",
-      title: "Honor Our Grandmothers",
-      subtitle: "Intersectional Memory, Elder Protection, and Solidarity",
+      title: "Targeted in Plain Sight",
+      subtitle: "Anti-Asian Hate Against Elderly Women During COVID-19",
       lead: "For more than a century and a half, laws, media narratives, and street violence have converged on Asian women and elders—compounding race, gender, age, and language barriers. This archive traces that history from the 1875 Page Act to Bay Area Chinatowns today, honoring our grandmothers' resilience and mobilizing community care.",
       ctaArchive: "Begin the Memorial Archive",
       ctaCandle: "Light a Tribute Candle",
@@ -174,7 +174,7 @@ window.MemorialI18n = {
       justNow: "Just now"
     },
     footer: {
-      title: "Honor Our Grandmothers: Intersectional Memory, Elder Protection, and Solidarity",
+      title: "Targeted in Plain Sight: Anti-Asian Hate Against Elderly Women During COVID-19",
       note: "Built as a static, accessible digital archive for community education, intergenerational remembrance, and GitHub Pages hosting.",
       backToTop: "↑ Back to Top",
       resources: "Elder Resources",
@@ -200,7 +200,7 @@ window.MemorialI18n = {
       langAnnounce: "語言已切換為廣東話（繁體中文）"
     },
     nav: {
-      brand: "向祖母致敬",
+      brand: "眾目睽睽下的針對",
       menu: "展區目錄",
       zonesLabel: "紀念展區",
       zone1: "一、歷史根源",
@@ -212,8 +212,8 @@ window.MemorialI18n = {
     },
     hero: {
       eyebrow: "數碼紀念館與交叉性歷史檔案",
-      title: "向我們的祖母致敬",
-      subtitle: "交叉記憶、長者保護與跨代團結",
+      title: "眾目睽睽下的針對",
+      subtitle: "新冠疫情期間針對亞裔年長女性的仇恨與暴力",
       lead: "一個半世紀以來，法律、媒體論述同街頭暴力一直交織咁壓迫亞裔女性同長者——種族、性別、年齡同語言障礙互相疊加。呢個檔案館由 1875 年《佩奇法案》追溯到今日三藩市同屋崙華埠，向我哋阿嫲同婆婆嘅堅韌致敬，並凝聚社區守護力量。",
       ctaArchive: "進入紀念檔案館",
       ctaCandle: "點亮致敬燭光",
@@ -357,7 +357,7 @@ window.MemorialI18n = {
       justNow: "剛剛"
     },
     footer: {
-      title: "向我們的祖母致敬：交叉記憶、長者保護與跨代團結",
+      title: "眾目睽睽下的針對：新冠疫情期間針對亞裔年長女性的仇恨與暴力",
       note: "專為社區教育、跨代追思及 GitHub Pages 靜態託管而設的無障礙數碼檔案館。",
       backToTop: "↑ 返回頂部",
       resources: "護老資源",
@@ -383,7 +383,7 @@ window.MemorialI18n = {
       langAnnounce: "语言已切换为普通话（简体中文）"
     },
     nav: {
-      brand: "向祖母致敬",
+      brand: "众目睽睽下的针对",
       menu: "展区导航",
       zonesLabel: "纪念展区",
       zone1: "一、历史根源",
@@ -395,8 +395,8 @@ window.MemorialI18n = {
     },
     hero: {
       eyebrow: "数字纪念馆与交叉性历史档案",
-      title: "向我们的祖母致敬",
-      subtitle: "交叉记忆、长者保护与跨代团结",
+      title: "众目睽睽下的针对",
+      subtitle: "新冠疫情期间针对亚裔老年女性的仇恨与暴力",
       lead: "一个半世纪以来，法律条文、媒体叙事与街头暴力持续交织地压迫亚裔女性与长者——种族、性别、年龄与语言障碍层层叠加。本档案馆从 1875 年《佩奇法案》追溯至今日的湾区华埠，致敬祖母们的坚韧生命力，并凝聚社区守护行动。",
       ctaArchive: "进入纪念档案馆",
       ctaCandle: "点亮致敬烛光",
@@ -540,7 +540,7 @@ window.MemorialI18n = {
       justNow: "刚刚"
     },
     footer: {
-      title: "向我们的祖母致敬：交叉记忆、长者保护与跨代团结",
+      title: "众目睽睽下的针对：新冠疫情期间针对亚裔老年女性的仇恨与暴力",
       note: "为社区教育、跨代缅怀与 GitHub Pages 静态托管而构建的无障碍数字档案馆。",
       backToTop: "↑ 返回顶部",
       resources: "护老资源",
@@ -566,7 +566,7 @@ window.MemorialI18n = {
       langAnnounce: "Pinalitan ang wika sa Tagalog"
     },
     nav: {
-      brand: "Parangalan ang Ating mga Lola",
+      brand: "Pinuntirya sa Hayag",
       menu: "Mga Sona",
       zonesLabel: "Mga Sona ng Memorial",
       zone1: "I. Kasaysayan",
@@ -578,8 +578,8 @@ window.MemorialI18n = {
     },
     hero: {
       eyebrow: "Digital na Memorial at Interseksyonal na Arkibo",
-      title: "Parangalan ang Ating mga Lola",
-      subtitle: "Interseksyonal na Alaala, Proteksyon sa Nakatatanda, at Pagkakaisa",
+      title: "Pinuntirya sa Hayag",
+      subtitle: "Poot Laban sa Nakatatandang Kababaihang Asyano Noong COVID-19",
       lead: "Sa loob ng mahigit isang siglo at kalahati, ang mga batas, naratibo sa media, at karahasan sa lansangan ay nagtagpo laban sa kababaihang Asyano at mga nakatatanda—pinagsasama ang diskriminasyon sa lahi, kasarian, edad, at wika. Sinusundan ng arkibong ito ang kasaysayan mula sa Page Act ng 1875 hanggang sa mga Chinatown ng Bay Area ngayon.",
       ctaArchive: "Simulan ang Arkibo ng Memorial",
       ctaCandle: "Magsindi ng Kandila ng Pagpupugay",
@@ -723,7 +723,7 @@ window.MemorialI18n = {
       justNow: "Ngayon lang"
     },
     footer: {
-      title: "Parangalan ang Ating mga Lola: Interseksyonal na Alaala, Proteksyon sa Nakatatanda, at Pagkakaisa",
+      title: "Pinuntirya sa Hayag: Poot Laban sa Nakatatandang Kababaihang Asyano Noong COVID-19",
       note: "Ginawa bilang static at accessible na digital na arkibo para sa edukasyon ng komunidad at GitHub Pages.",
       backToTop: "↑ Bumalik sa Itaas",
       resources: "Mga Tulong",
@@ -749,7 +749,7 @@ window.MemorialI18n = {
       langAnnounce: "Đã chuyển ngôn ngữ sang Tiếng Việt"
     },
     nav: {
-      brand: "Tôn Vinh Các Bà",
+      brand: "Bị Nhắm Tới Giữa Ban Ngày",
       menu: "Phân khu",
       zonesLabel: "Các phân khu tưởng niệm",
       zone1: "I. Nền tảng lịch sử",
@@ -761,8 +761,8 @@ window.MemorialI18n = {
     },
     hero: {
       eyebrow: "Đài tưởng niệm số & Lưu trữ liên tầng",
-      title: "Tôn Vinh Các Bà Của Chúng Ta",
-      subtitle: "Ký ức liên tầng, Bảo vệ người cao tuổi và Đoàn kết",
+      title: "Bị Nhắm Tới Giữa Ban Ngày",
+      subtitle: "Thù Ghét Chống Người Gốc Á Nhắm Vào Phụ Nữ Cao Tuổi Thời COVID-19",
       lead: "Hơn một thế kỷ rưỡi qua, luật pháp, truyền thông và bạo lực đường phố đã dồn nén lên phụ nữ và người cao tuổi gốc Á—chồng chất rào cản chủng tộc, giới tính, tuổi tác và ngôn ngữ. Kho lưu trữ này lần theo lịch sử từ Đạo luật Page 1875 đến các khu phố Tàu Vùng Vịnh hôm nay.",
       ctaArchive: "Khám phá kho lưu trữ",
       ctaCandle: "Thắp nến tri ân",
@@ -906,7 +906,7 @@ window.MemorialI18n = {
       justNow: "Vừa xong"
     },
     footer: {
-      title: "Tôn Vinh Các Bà: Ký ức liên tầng, Bảo vệ người cao tuổi và Đoàn kết",
+      title: "Bị Nhắm Tới Giữa Ban Ngày: Thù Ghét Chống Người Gốc Á Nhắm Vào Phụ Nữ Cao Tuổi Thời COVID-19",
       note: "Được xây dựng như một kho lưu trữ số tĩnh, dễ tiếp cận cho giáo dục cộng đồng và GitHub Pages.",
       backToTop: "↑ Lên đầu trang",
       resources: "Nguồn hỗ trợ",

@@ -141,6 +141,9 @@
   }
 
   function applyStaticTranslations() {
+    const pageTitle = getI18n("footer.title");
+    if (pageTitle) document.title = pageTitle;
+
     document.querySelectorAll("[data-i18n]").forEach((el) => {
       const key = el.getAttribute("data-i18n");
       const val = getI18n(key);
