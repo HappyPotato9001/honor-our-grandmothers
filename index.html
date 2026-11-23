@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Honor Our Grandmothers: Intersectional Memory, Elder Protection, and Solidarity</title>
-  <meta name="description" content="Honor Our Grandmothers: A Digital Memorial on Anti-Asian Hate Toward Elderly Women During COVID-19—tracing historical exclusion, language barriers, and community elder protection.">
+  <title>In Plain Sight: A Memorial to Elderly Asian Women Targeted During COVID-19</title>
+  <meta name="description" content="In Plain Sight — a digital memorial on anti-Asian hate toward elderly women during COVID-19: intersectional memory, elder protection, and solidarity.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Noto+Sans+SC:wght@400;600;700&family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+SC:wght@400;600;700&family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script defer src="js/i18n.js"></script>
   <script defer src="js/data.js"></script>
@@ -16,24 +16,15 @@
 </head>
 <body>
   <a class="skip-link" href="#main-content" data-i18n="a11y.skipToMain">Skip to main memorial content</a>
-
   <div id="a11y-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
 
-  <!-- Fixed Senior Accessibility Toolbar & Chapter Navbar -->
   <header class="site-header" id="site-header">
-    <div class="header-inner">
-      <div class="brand-group">
-        <a href="#hero" class="brand-link">
-          <svg class="brand-candle" width="24" height="24" viewBox="0 0 64 64" aria-hidden="true">
-            <path d="M32 9c3.5 5 6 8.5 6 12.2a6 6 0 1 1-12 0C26 17.5 28.5 14 32 9z" fill="#FBBF24"/>
-            <rect x="25" y="29" width="14" height="22" rx="2.5" fill="#F8FAFC"/>
-            <rect x="20" y="51" width="24" height="4" rx="2" fill="#D97706"/>
-          </svg>
-          <span class="brand-title" data-i18n="nav.brand">Honor Our Grandmothers</span>
-        </a>
-      </div>
+    <div class="header-bar">
+      <a href="#hero" class="brand-link">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-title" data-i18n="nav.brand">In Plain Sight</span>
+      </a>
 
-      <!-- Always-visible Senior Accessibility Controls -->
       <div class="a11y-toolbar" role="region" aria-label="Senior Accessibility Toolbar" data-i18n-aria="a11y.toolbarLabel">
         <div class="font-scaler" role="group" aria-label="Text size controls" data-i18n-aria="a11y.fontGroupLabel">
           <span class="toolbar-label" data-i18n="a11y.textSize">Text</span>
@@ -51,73 +42,63 @@
           <label for="lang-select" class="toolbar-label" data-i18n="a11y.language">Language</label>
           <select id="lang-select" class="lang-select" aria-label="Select language" data-i18n-aria="a11y.selectLanguage">
             <option value="en">English</option>
-            <option value="yue">廣東話 (繁體中文)</option>
-            <option value="zh">普通话 (简体中文)</option>
+            <option value="yue">廣東話 Cantonese</option>
+            <option value="zh">普通话 Mandarin</option>
             <option value="tl">Tagalog</option>
             <option value="vi">Tiếng Việt</option>
           </select>
         </div>
 
-        <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="chapter-nav" data-i18n="nav.menu">
-          Zones
-        </button>
+        <button type="button" id="nav-toggle" class="tool-btn nav-toggle" aria-expanded="false" aria-controls="chapter-nav" data-i18n="nav.menu">Zones</button>
       </div>
     </div>
 
     <nav id="chapter-nav" class="chapter-nav" aria-label="Memorial Zones" data-i18n-aria="nav.zonesLabel">
       <ul class="chapter-list">
-        <li><a href="#zone-1" class="chapter-link" data-zone-link="zone-1" data-i18n="nav.zone1">I. Foundations</a></li>
+        <li><a href="#zone-1" class="chapter-link" data-zone-link="zone-1" data-i18n="nav.zone1">I. Historical Roots</a></li>
         <li><a href="#zone-2" class="chapter-link" data-zone-link="zone-2" data-i18n="nav.zone2">II. Scapegoating</a></li>
-        <li><a href="#zone-3" class="chapter-link" data-zone-link="zone-3" data-i18n="nav.zone3">III. Urban Impact</a></li>
-        <li><a href="#zone-4" class="chapter-link" data-zone-link="zone-4" data-i18n="nav.zone4">IV. Reflection Mirror</a></li>
-        <li><a href="#zone-5" class="chapter-link" data-zone-link="zone-5" data-i18n="nav.zone5">V. Elder Protection</a></li>
+        <li><a href="#zone-3" class="chapter-link" data-zone-link="zone-3" data-i18n="nav.zone3">III. Urban Harm</a></li>
+        <li><a href="#zone-4" class="chapter-link" data-zone-link="zone-4" data-i18n="nav.zone4">IV. Reflection</a></li>
+        <li><a href="#zone-5" class="chapter-link" data-zone-link="zone-5" data-i18n="nav.zone5">V. Protection</a></li>
         <li><a href="#pledge-wall" class="chapter-link chapter-link--cta" data-zone-link="pledge-wall" data-i18n="nav.pledgeWall">Pledge Wall</a></li>
       </ul>
     </nav>
   </header>
 
   <main id="main-content">
-    <!-- Hero Memorial Banner -->
     <section id="hero" class="hero-section" aria-labelledby="hero-title">
-      <div class="container hero-container">
-        <p class="hero-eyebrow" data-i18n="hero.eyebrow">Digital Memorial &amp; Intersectional Archive</p>
-        <h1 id="hero-title" class="hero-title" data-i18n="hero.title">Honor Our Grandmothers</h1>
-        <p class="hero-subtitle" data-i18n="hero.subtitle">A Digital Memorial on Anti-Asian Hate Toward Elderly Women During COVID-19</p>
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <h1 id="hero-title" class="hero-title" data-i18n="hero.title">In Plain Sight</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">A Memorial to Elderly Asian Women Targeted During COVID-19: Intersectional Memory, Elder Protection, and Solidarity</p>
         <p class="hero-lead" data-i18n="hero.lead">
-          For more than a century and a half, laws, media narratives, and street violence have converged on Asian women and elders—compounding race, gender, age, and language barriers. This archive traces that history from the 1875 Page Act to Bay Area Chinatowns today, honoring our grandmothers' resilience and mobilizing community care.
+          During COVID-19, race, gender, and age converged to make elderly Asian American women uniquely vulnerable. Daytime street assaults happened in plain sight; verbal harassment followed them on buses and sidewalks; and many retreated into homebound isolation when neighbors and systems failed to protect them.
         </p>
-
         <div class="hero-actions">
-          <a href="#zone-1" class="btn btn-primary" data-i18n="hero.ctaArchive">Begin the Memorial Archive</a>
-          <a href="#pledge-wall" class="btn btn-outline-amber" data-i18n="hero.ctaCandle">Light a Tribute Candle</a>
-        </div>
-
-        <div class="hero-index" aria-label="Five Memorial Zones Overview" data-i18n-aria="hero.indexLabel">
-          <a href="#zone-1" class="index-pill"><span class="index-num">01</span> <span data-i18n="hero.idx1">1875–1942 Exclusion</span></a>
-          <a href="#zone-2" class="index-pill"><span class="index-num">02</span> <span data-i18n="hero.idx2">Scapegoating &amp; Language</span></a>
-          <a href="#zone-3" class="index-pill"><span class="index-num">03</span> <span data-i18n="hero.idx3">2.3× Disparity &amp; Testimonies</span></a>
-          <a href="#zone-4" class="index-pill"><span class="index-num">04</span> <span data-i18n="hero.idx4">Behind Closed Doors</span></a>
-          <a href="#zone-5" class="index-pill"><span class="index-num">05</span> <span data-i18n="hero.idx5">Protection &amp; Mutual Aid</span></a>
+          <a href="#zone-1" class="btn btn-primary" data-i18n="hero.ctaArchive">Enter the Memorial</a>
+          <button type="button" id="hero-candle-btn" class="btn btn-ghost">
+            <span data-i18n="hero.ctaCandle">Light a Tribute Candle</span>
+            <span id="hero-candle-count" class="candle-count">0</span>
+          </button>
         </div>
       </div>
     </section>
 
-    <!-- Zone 1: Historical Foundations -->
     <section id="zone-1" class="memorial-zone" aria-labelledby="zone-1-title">
       <div class="container">
         <div class="zone-header">
-          <span class="zone-kicker" data-i18n="zone1.kicker">Zone 1 · Historical Foundations</span>
-          <h2 id="zone-1-title" class="zone-title" data-i18n="zone1.title">From the Page Act &amp; Exclusion to Perpetual Foreigners</h2>
+          <span class="zone-kicker" data-i18n="zone1.kicker">Zone 1 · Historical Roots</span>
+          <h2 id="zone-1-title" class="zone-title" data-i18n="zone1.title">From the Page Act to Perpetual Foreigners</h2>
           <p class="zone-intro" data-i18n="zone1.intro">
-            Anti-Asian elder vulnerability did not begin in 2020. Federal statutes and detention systems framed Asian women as suspect outsiders and denied Asian families rooted belonging for generations.
+            Anti-Asian elder vulnerability did not begin in 2020. Exclusion laws and detention systems framed Asian women as suspect outsiders and denied families rooted belonging for generations.
           </p>
         </div>
 
         <div class="timeline-controls">
           <div class="timeline-stepper" id="timeline-stepper" role="tablist" aria-label="Historical milestones" data-i18n-aria="zone1.stepperLabel"></div>
           <div class="timeline-arrows">
-            <button type="button" id="timeline-prev" class="btn btn-secondary btn-sm" aria-label="Previous historical milestone" data-i18n="zone1.prev">← Previous</button>
-            <button type="button" id="timeline-next" class="btn btn-secondary btn-sm" aria-label="Next historical milestone" data-i18n="zone1.next">Next →</button>
+            <button type="button" id="timeline-prev" class="btn btn-ghost btn-sm" data-i18n="zone1.prev">← Previous</button>
+            <button type="button" id="timeline-next" class="btn btn-ghost btn-sm" data-i18n="zone1.next">Next →</button>
           </div>
         </div>
 
@@ -125,313 +106,153 @@
           <div id="timeline-track" class="timeline-track" role="region" aria-label="Interactive historical timeline" tabindex="0"></div>
         </div>
 
-        <article id="primary-source-reader" class="archival-reader" aria-live="polite">
-          <!-- Populated dynamically by js/app.js -->
-        </article>
+        <article id="primary-source-reader" class="archival-reader" aria-live="polite"></article>
       </div>
     </section>
 
-    <!-- Zone 2: Ideological & Institutional Oppression -->
     <section id="zone-2" class="memorial-zone memorial-zone--alt" aria-labelledby="zone-2-title">
       <div class="container">
         <div class="zone-header">
-          <span class="zone-kicker zone-kicker--crimson" data-i18n="zone2.kicker">Zone 2 · Ideological &amp; Institutional Oppression</span>
+          <span class="zone-kicker zone-kicker--warn" data-i18n="zone2.kicker">Zone 2 · Ideological &amp; Institutional Oppression</span>
           <h2 id="zone-2-title" class="zone-title" data-i18n="zone2.title">Scapegoating &amp; Language-Access Barriers</h2>
           <p class="zone-intro" data-i18n="zone2.intro">
-            When public health crises or economic anxieties strike, 19th-century "Yellow Peril" tropes resurface alongside municipal systems that still fail to speak our grandmothers' languages.
+            Pandemic rhetoric revived 19th-century disease tropes while municipal systems still failed to speak our grandmothers' languages—leaving elders unprotected in plain sight.
           </p>
         </div>
-
-        <div class="matrix-controls">
-          <div class="filter-pills" id="matrix-filters" role="group" aria-label="Filter matrix by theme" data-i18n-aria="zone2.filterLabel"></div>
-          <button type="button" id="echo-lens-toggle" class="btn btn-outline-crimson" aria-pressed="false">
-            <span class="pulse-dot" aria-hidden="true"></span>
-            <span data-i18n="zone2.echoLens">Echo Lens: Highlight Recurring Tropes</span>
-          </button>
-        </div>
-
-        <div id="comparative-matrix" class="comparative-matrix">
-          <!-- Populated dynamically -->
-        </div>
-
-        <div class="language-gaps-panel">
-          <div class="panel-heading-row">
-            <h3 class="panel-title" data-i18n="zone2.gapsTitle">Municipal Language-Access Gaps Facing Non-English-Speaking Elders</h3>
-            <span class="alert-badge" data-i18n="zone2.gapsBadge">Systemic Barrier</span>
-          </div>
-          <p class="panel-desc" data-i18n="zone2.gapsDesc">
-            Institutional exclusion persists when emergency response, transit safety, and victim advocacy assume English fluency.
-          </p>
-          <div id="language-gaps-grid" class="gaps-grid">
-            <!-- Populated dynamically -->
-          </div>
-        </div>
+        <div id="comparison-matrix" class="comparison-matrix"></div>
       </div>
     </section>
 
-    <!-- Zone 3: Interpersonal & Intersectional Impact -->
     <section id="zone-3" class="memorial-zone" aria-labelledby="zone-3-title">
       <div class="container">
         <div class="zone-header">
-          <span class="zone-kicker zone-kicker--crimson" data-i18n="zone3.kicker">Zone 3 · Interpersonal &amp; Intersectional Impact</span>
+          <span class="zone-kicker zone-kicker--warn" data-i18n="zone3.kicker">Zone 3 · Interpersonal &amp; Intersectional Harm</span>
           <h2 id="zone-3-title" class="zone-title" data-i18n="zone3.title">Race, Gender, and Age on Urban Streets</h2>
           <p class="zone-intro" data-i18n="zone3.intro">
-            National reporting and Bay Area street realities reveal how anti-Asian racism intersects with sexism and ageism—concentrating visible and physical violence against women and elders.
+            Stop AAPI Hate research and Bay Area street realities show how anti-Asian racism intersected with sexism and ageism—concentrating violence against women and elders in daylight, in plain sight.
           </p>
         </div>
 
-        <div class="viz-grid">
-          <!-- Viz Card 1: 2.3x Gender Disparity -->
-          <article class="viz-card" aria-labelledby="viz-gender-title">
-            <div class="viz-card-top">
-              <span class="alert-badge" data-i18n="zone3.viz1Badge">Stop AAPI Hate Finding</span>
-              <h3 id="viz-gender-title" class="viz-title" data-i18n="zone3.viz1Title">2.3× Higher Reporting Rate Among Women</h3>
-            </div>
-            <div class="viz-hero-stat">
-              <span class="stat-big stat-big--crimson">2.3×</span>
-              <p class="stat-caption" data-i18n="zone3.viz1Caption">
-                Asian American women reported hate incidents at 2.3 times the rate of men (68% vs. 29% across landmark 2020–2021 national reporting; 11,400+ total reports 2020–2022).
-              </p>
-            </div>
-            <div id="svg-gender-chart" class="svg-chart-container"></div>
-          </article>
+        <div id="stat-cards" class="stat-row"></div>
 
-          <!-- Viz Card 2: Bay Area Elder Assault Surge -->
-          <article class="viz-card" aria-labelledby="viz-elder-title">
-            <div class="viz-card-top">
-              <span class="alert-badge alert-badge--amber" data-i18n="zone3.viz2Badge">Bay Area Street Reality</span>
-              <h3 id="viz-elder-title" class="viz-title" data-i18n="zone3.viz2Title">Elder Assault Surge in SF &amp; Oakland Chinatowns</h3>
-            </div>
-            <div class="viz-hero-stat">
-              <span class="stat-big stat-big--amber" data-i18n="zone3.viz2Stat">60+</span>
-              <p class="stat-caption" data-i18n="zone3.viz2Caption">
-                Elders aged 60+ experienced heightened physical assault rates during 2020–2022 surges in San Francisco and Oakland Chinatowns, turning routine grocery walks and transit trips into moments of fear.
-              </p>
-            </div>
-            <div id="svg-elder-chart" class="svg-chart-container"></div>
-          </article>
-
-          <!-- Viz Card 3: Interactive Toggleable Breakdown -->
-          <article class="viz-card viz-card--wide" aria-labelledby="viz-breakdown-title">
-            <div class="viz-card-header-flex">
-              <div>
-                <span class="alert-badge" data-i18n="zone3.viz3Badge">Interactive Data Lens</span>
-                <h3 id="viz-breakdown-title" class="viz-title" data-i18n="zone3.viz3Title">Incident Types &amp; Compounding Vulnerabilities</h3>
-              </div>
-              <div class="toggle-pair" role="group" aria-label="Switch data chart view" data-i18n-aria="zone3.chartSwitchLabel">
-                <button type="button" id="chart-mode-types" class="btn btn-sm btn-primary" aria-pressed="true" data-i18n="zone3.modeTypes">Incident Types</button>
-                <button type="button" id="chart-mode-factors" class="btn btn-sm btn-secondary" aria-pressed="false" data-i18n="zone3.modeFactors">Compounding Factors</button>
-              </div>
-            </div>
-            <div id="svg-breakdown-chart" class="svg-chart-container"></div>
-            <p class="viz-source-note" data-i18n="zone3.sourceNote">
-              Data synthesis reflects Stop AAPI Hate national reports (2020–2022) and documented Bay Area community safety reporting. Note: respondents could report multiple incident categories.
-            </p>
-          </article>
+        <div class="testimonies-header">
+          <h3 class="subsection-title" data-i18n="zone3.testimoniesTitle">Elder &amp; Family Testimony Cards</h3>
+          <p class="subsection-note" data-i18n="zone3.testimoniesNote">
+            Anonymized composite testimonies reflecting documented experiences of Bay Area elders and families during 2020–2021.
+          </p>
         </div>
-
-        <!-- Anonymized Survivor Testimony Cards -->
-        <div class="testimonies-section">
-          <div class="testimonies-header">
-            <div>
-              <h3 class="subsection-title" data-i18n="zone3.testimoniesTitle">Anonymized Community Testimonies</h3>
-              <p class="subsection-note" data-i18n="zone3.testimoniesNote">
-                Anonymized composite testimonies reflecting documented experiences of Bay Area elders, transit riders, and family caregivers.
-              </p>
-            </div>
-            <div class="filter-pills" id="testimony-filters" role="group" aria-label="Filter testimonies" data-i18n-aria="zone3.testimonyFilterLabel"></div>
-          </div>
-          <div id="testimonies-grid" class="testimonies-grid"></div>
-        </div>
+        <div id="testimonies-grid" class="testimonies-grid"></div>
       </div>
     </section>
 
-    <!-- Zone 4: Internalized Oppression & Reflection Mirror -->
     <section id="zone-4" class="memorial-zone memorial-zone--alt" aria-labelledby="zone-4-title">
       <div class="container">
         <div class="zone-header">
           <span class="zone-kicker" data-i18n="zone4.kicker">Zone 4 · Internalized Oppression &amp; Reflection</span>
-          <h2 id="zone-4-title" class="zone-title" data-i18n="zone4.title">Behind Closed Doors: Isolation &amp; Self-Reflection</h2>
+          <h2 id="zone-4-title" class="zone-title" data-i18n="zone4.title">Behind Closed Doors</h2>
           <p class="zone-intro" data-i18n="zone4.intro">
-            When headlines repeatedly cast Asian communities as foreign or imperiled, the impact does not stop at the front door. It settles into silence, hyper-vigilance, and isolation inside the home.
+            When harassment happens in plain sight, the wound does not stop at the front door. Fear settles into silence, hyper-vigilance, and isolation inside the home.
           </p>
         </div>
 
         <div class="mirror-stage">
-          <!-- Headlines Left Column -->
-          <div class="mirror-headlines mirror-headlines--left" id="mirror-headlines-left" aria-label="Historical headlines"></div>
-
-          <!-- Central Ornate Mirror Frame -->
+          <div class="mirror-headlines" id="mirror-headlines" aria-label="COVID-19 anti-Asian headline snippets"></div>
           <div class="mirror-frame">
-            <div class="mirror-bezel">
-              <div class="mirror-glass">
-                <span class="mirror-label" data-i18n="zone4.mirrorLabel">The Reflection Mirror</span>
-                <blockquote class="mirror-prompt" data-i18n="zone4.mirrorPrompt">
-                  "How do historical stereotypes and gendered violence shape the fear, isolation, and hyper-vigilance experienced by our grandmothers behind closed doors, and how can communities counter complicity?"
-                </blockquote>
-                <div id="mirror-active-note" class="mirror-note" aria-live="polite">
-                  <!-- Populated when a headline around the mirror is selected -->
-                </div>
-              </div>
+            <div class="mirror-glass">
+              <span class="mirror-label" data-i18n="zone4.mirrorLabel">The Reflection Mirror</span>
+              <blockquote class="mirror-prompt" data-i18n="zone4.mirrorPrompt">
+                "How did street harassment and fear of violence happening in plain sight force our grandmothers into isolation behind closed doors—and what responsibility do bystanders and communities share to end complicity?"
+              </blockquote>
             </div>
           </div>
-
-          <!-- Headlines Right Column -->
-          <div class="mirror-headlines mirror-headlines--right" id="mirror-headlines-right" aria-label="Contemporary headlines"></div>
         </div>
 
-        <!-- Contemplation & Reflection Drawer -->
-        <div class="reflection-drawer">
-          <div class="drawer-header">
-            <div>
-              <h3 class="panel-title" data-i18n="zone4.drawerTitle">Quiet Reflection Space</h3>
-              <p class="panel-desc" id="active-grounding-prompt"></p>
-            </div>
-            <button type="button" id="cycle-prompt-btn" class="btn btn-secondary btn-sm" data-i18n="zone4.cyclePrompt">Next Reflection Question</button>
-          </div>
-
-          <label for="private-reflection-input" class="sr-only" data-i18n="zone4.inputLabel">Write a reflection</label>
-          <textarea id="private-reflection-input" class="form-textarea" rows="3" maxlength="350" placeholder="Write a private thought or memory here. Nothing is sent anywhere unless you choose to share it on the Pledge Wall below..." data-i18n-placeholder="zone4.placeholder"></textarea>
-
-          <div class="drawer-actions">
-            <span class="privacy-note" data-i18n="zone4.privacyNote">Private by default — stays only in your browser until you clear or share it.</span>
-            <div class="drawer-buttons">
-              <button type="button" id="clear-reflection-btn" class="btn btn-secondary btn-sm" data-i18n="zone4.clearBtn">Clear</button>
-              <button type="button" id="share-to-wall-btn" class="btn btn-primary btn-sm" data-i18n="zone4.shareBtn">Share as Solidarity on the Pledge Wall →</button>
+        <div class="routine-panel">
+          <div class="routine-header">
+            <h3 class="panel-title" data-i18n="zone4.routineTitle">Before vs. After COVID-19 Daily Routine</h3>
+            <div class="toggle-pair" role="group" aria-label="Toggle before or after COVID-19 routine" data-i18n-aria="zone4.routineToggleLabel">
+              <button type="button" id="routine-before" class="btn btn-sm btn-primary" aria-pressed="true" data-i18n="zone4.before">Before</button>
+              <button type="button" id="routine-after" class="btn btn-sm btn-ghost" aria-pressed="false" data-i18n="zone4.after">After</button>
             </div>
           </div>
+          <div id="routine-content" class="routine-content" aria-live="polite"></div>
         </div>
       </div>
     </section>
 
-    <!-- Zone 5: Resistance & Elder Protection -->
     <section id="zone-5" class="memorial-zone" aria-labelledby="zone-5-title">
       <div class="container">
         <div class="zone-header">
           <span class="zone-kicker" data-i18n="zone5.kicker">Zone 5 · Resistance &amp; Elder Protection</span>
           <h2 id="zone-5-title" class="zone-title" data-i18n="zone5.title">Protecting Our Grandmothers</h2>
           <p class="zone-intro" data-i18n="zone5.intro">
-            Our communities have never been passive. Across San Francisco, Oakland, and beyond, neighbors walk alongside elders, organize cross-racial solidarity marches, and build multilingual mutual aid networks.
+            Our communities have never been passive. Across Oakland and San Francisco Chinatowns, neighbors walked beside elders, reported hate, and built cross-racial mutual aid.
           </p>
         </div>
-
-        <div class="directory-controls">
-          <div class="filter-pills" id="resource-filters" role="group" aria-label="Filter community resources" data-i18n-aria="zone5.filterLabel"></div>
-          <div class="search-box">
-            <label for="resource-search" class="sr-only" data-i18n="zone5.searchLabel">Search organizations or services</label>
-            <input type="search" id="resource-search" class="form-input" placeholder="Search patrols, languages, or organizations..." data-i18n-placeholder="zone5.searchPlaceholder">
-          </div>
-        </div>
-
-        <p id="resource-count" class="result-count" aria-live="polite"></p>
-
-        <div id="resources-grid" class="resources-grid">
-          <!-- Populated dynamically -->
-        </div>
+        <div id="resistance-grid" class="resistance-grid"></div>
       </div>
     </section>
 
-    <!-- Community Solidarity & Elder Support Pledge Wall -->
     <section id="pledge-wall" class="memorial-zone memorial-zone--pledge" aria-labelledby="pledge-wall-title">
       <div class="container">
         <div class="zone-header">
           <span class="zone-kicker" data-i18n="wall.kicker">Community Action &amp; Remembrance</span>
           <h2 id="pledge-wall-title" class="zone-title" data-i18n="wall.title">Elder Protection &amp; Solidarity Pledge Wall</h2>
           <p class="zone-intro" data-i18n="wall.intro">
-            Light a virtual tribute candle for an elder, pledge volunteer escort or translation support, or leave a message of intergenerational solidarity. Entries save locally in your browser and appear immediately below.
+            Honor a grandmother, pledge to walk with elders, or leave a message of solidarity. Your card appears instantly below and saves in your browser.
           </p>
         </div>
 
-        <!-- Live Tribute Counters -->
-        <div class="wall-stats" aria-label="Community tribute summary" data-i18n-aria="wall.statsLabel">
-          <div class="stat-pill stat-pill--candle">
-            <svg class="candle-svg" width="28" height="28" viewBox="0 0 64 64" aria-hidden="true">
-              <circle cx="32" cy="20" r="14" fill="#D97706" opacity="0.35"/>
-              <path d="M32 9c3.5 5 6 8.5 6 12.2a6 6 0 1 1-12 0C26 17.5 28.5 14 32 9z" fill="#FBBF24"/>
-              <rect x="25" y="29" width="14" height="22" rx="2.5" fill="#F8FAFC"/>
-            </svg>
-            <div>
-              <span id="count-candles" class="stat-count">0</span>
-              <span class="stat-label" data-i18n="wall.statCandles">Tribute Candles Lit</span>
-            </div>
-          </div>
-          <div class="stat-pill">
-            <div>
-              <span id="count-pledges" class="stat-count">0</span>
-              <span class="stat-label" data-i18n="wall.statPledges">Volunteer Pledges</span>
-            </div>
-          </div>
-          <div class="stat-pill">
-            <div>
-              <span id="count-messages" class="stat-count">0</span>
-              <span class="stat-label" data-i18n="wall.statMessages">Solidarity Messages</span>
-            </div>
-          </div>
-        </div>
-
         <div class="wall-layout">
-          <!-- Interactive Pledge Form -->
           <form id="pledge-form" class="pledge-form" novalidate>
             <h3 class="panel-title" data-i18n="wall.formTitle">Add Your Tribute or Pledge</h3>
 
+            <div class="form-field">
+              <label for="pledge-name" class="field-label" data-i18n="wall.nameLabel">Name</label>
+              <input type="text" id="pledge-name" class="form-input" maxlength="60" placeholder="Anonymous Ally" data-i18n-placeholder="wall.namePlaceholder">
+            </div>
+
+            <div class="form-field">
+              <label for="pledge-city" class="field-label" data-i18n="wall.cityLabel">Neighborhood / City</label>
+              <input type="text" id="pledge-city" class="form-input" maxlength="60" placeholder="e.g., Oakland Chinatown" data-i18n-placeholder="wall.cityPlaceholder">
+            </div>
+
             <fieldset class="action-fieldset">
-              <legend class="field-label" data-i18n="wall.actionLegend">Choose how to participate</legend>
+              <legend class="field-label" data-i18n="wall.iconLegend">Tribute Icon</legend>
               <div class="action-options">
                 <label class="radio-card">
-                  <input type="radio" name="entryType" value="candle" checked>
-                  <span class="radio-card-body">
-                    <span class="radio-mark" aria-hidden="true">01</span>
-                    <span data-i18n="wall.typeCandle">Light a Tribute Candle</span>
-                  </span>
+                  <input type="radio" name="entryIcon" value="candle" checked>
+                  <span class="radio-card-body"><span class="icon-dot icon-dot--candle" aria-hidden="true"></span> <span data-i18n="wall.iconCandle">Tribute Candle</span></span>
                 </label>
                 <label class="radio-card">
-                  <input type="radio" name="entryType" value="pledge">
-                  <span class="radio-card-body">
-                    <span class="radio-mark" aria-hidden="true">02</span>
-                    <span data-i18n="wall.typePledge">Volunteer Support Pledge</span>
-                  </span>
+                  <input type="radio" name="entryIcon" value="chrysanthemum">
+                  <span class="radio-card-body"><span class="icon-dot icon-dot--flower" aria-hidden="true"></span> <span data-i18n="wall.iconFlower">Chrysanthemum</span></span>
                 </label>
                 <label class="radio-card">
-                  <input type="radio" name="entryType" value="message">
-                  <span class="radio-card-body">
-                    <span class="radio-mark" aria-hidden="true">03</span>
-                    <span data-i18n="wall.typeMessage">Message of Solidarity</span>
-                  </span>
+                  <input type="radio" name="entryIcon" value="solidarity">
+                  <span class="radio-card-body"><span class="icon-dot icon-dot--solidarity" aria-hidden="true"></span> <span data-i18n="wall.iconSolidarity">Solidarity Pledge</span></span>
                 </label>
               </div>
             </fieldset>
 
             <div class="form-field">
-              <label for="pledge-city" class="field-label" data-i18n="wall.cityLabel">Neighborhood / City (optional)</label>
-              <input type="text" id="pledge-city" class="form-input" maxlength="60" placeholder="e.g., Oakland Chinatown" data-i18n-placeholder="wall.cityPlaceholder">
-            </div>
-
-            <div class="form-field" id="dedication-field-wrap">
-              <label for="pledge-dedication" class="field-label" data-i18n="wall.dedicationLabel">In Honor Of (optional)</label>
-              <input type="text" id="pledge-dedication" class="form-input" maxlength="80" placeholder="e.g., My Ah Ma, Grandmother, or neighborhood elders" data-i18n-placeholder="wall.dedicationPlaceholder">
-            </div>
-
-            <div class="form-field">
               <div class="label-with-counter">
-                <label for="pledge-message" class="field-label" data-i18n="wall.messageLabel">Message or Pledge *</label>
+                <label for="pledge-message" class="field-label" data-i18n="wall.messageLabel">Message *</label>
                 <span id="message-char-count" class="char-counter">0 / 400</span>
               </div>
-              <textarea id="pledge-message" class="form-textarea" rows="4" maxlength="400" required placeholder="Share a word of remembrance, solidarity, or how you will show up for elders..." data-i18n-placeholder="wall.messagePlaceholder"></textarea>
+              <textarea id="pledge-message" class="form-textarea" rows="4" maxlength="400" required placeholder="Honor a grandmother or pledge how you will show up for elders..." data-i18n-placeholder="wall.messagePlaceholder"></textarea>
               <p id="pledge-form-error" class="form-error" role="alert" hidden></p>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-full" data-i18n="wall.submitBtn">Post to Community Wall</button>
+            <button type="submit" class="btn btn-primary btn-full" data-i18n="wall.submitBtn">Post to Pledge Wall</button>
           </form>
 
-          <!-- Live Community Wall Feed -->
           <div class="wall-feed-column">
             <div class="wall-feed-header">
               <h3 class="panel-title" data-i18n="wall.feedTitle">Live Community Wall</h3>
-              <div class="filter-pills" id="wall-filters" role="group" aria-label="Filter community wall entries" data-i18n-aria="wall.filterLabel"></div>
+              <div class="filter-row" id="wall-filters" role="group" aria-label="Filter pledge wall" data-i18n-aria="wall.filterLabel"></div>
             </div>
-            <div id="pledge-wall-list" class="pledge-wall-list" aria-live="polite">
-              <!-- Populated dynamically with XSS-safe DOM nodes -->
-            </div>
+            <div id="pledge-wall-list" class="pledge-masonry" aria-live="polite"></div>
           </div>
         </div>
       </div>
@@ -440,15 +261,25 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div>
-        <p class="footer-title" data-i18n="footer.title">Honor Our Grandmothers: Intersectional Memory, Elder Protection, and Solidarity</p>
-        <p class="footer-note" data-i18n="footer.note">
-          Built as a static, accessible digital archive for community education, intergenerational remembrance, and GitHub Pages hosting.
-        </p>
+      <p class="footer-title" data-i18n="footer.title">In Plain Sight: A Memorial to Elderly Asian Women Targeted During COVID-19</p>
+      <p class="footer-note" data-i18n="footer.credit">
+        Ethnic Studies Final Project — Intersectional Memory, Elder Protection, and Solidarity. Built as a static, accessible digital archive for community education and GitHub Pages hosting.
+      </p>
+
+      <div class="footer-sources">
+        <h3 class="footer-sources-title" data-i18n="footer.sourcesTitle">Primary Historical &amp; Research Sources</h3>
+        <ul>
+          <li data-i18n="footer.source1">Page Act of 1875 (Ch. 141, 18 Stat. 477)</li>
+          <li data-i18n="footer.source2">Chinese Exclusion Act of 1882 (Ch. 126, 22 Stat. 58)</li>
+          <li data-i18n="footer.source3">Executive Order 9066 (1942), National Archives</li>
+          <li data-i18n="footer.source4">Stop AAPI Hate National Reports (2020–2022)</li>
+          <li data-i18n="footer.source5">Ronald Takaki, A Different Mirror: A History of Multicultural America</li>
+        </ul>
       </div>
+
       <div class="footer-links">
         <a href="#hero" class="footer-link" data-i18n="footer.backToTop">↑ Back to Top</a>
-        <a href="#zone-5" class="footer-link" data-i18n="footer.resources">Elder Resources</a>
+        <a href="#zone-5" class="footer-link" data-i18n="footer.resources">Elder Protection</a>
         <a href="#pledge-wall" class="footer-link" data-i18n="footer.pledge">Pledge Wall</a>
       </div>
     </div>
