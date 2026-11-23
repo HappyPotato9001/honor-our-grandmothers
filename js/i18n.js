@@ -8,7 +8,7 @@ window.MemorialI18n = {
       decreaseText: "Decrease text size",
       resetText: "Reset text size to 100%",
       increaseText: "Increase text size",
-      highContrast: "Contrast",
+      highContrast: "High Contrast",
       language: "Language",
       selectLanguage: "Select language",
       fontAnnounce: "Text size set to {scale}%",
@@ -19,34 +19,34 @@ window.MemorialI18n = {
     },
     nav: {
       brand: "In Plain Sight",
-      menu: "Menu",
-      zonesLabel: "Sections",
-      zone1: "History",
-      zone2: "Scapegoating",
-      zone3: "Streets",
-      zone4: "Behind closed doors",
-      zone5: "Protection",
-      pledgeWall: "Pledges"
+      menu: "Zones",
+      zonesLabel: "Memorial Zones",
+      zone1: "I. Historical Roots",
+      zone2: "II. Scapegoating",
+      zone3: "III. Urban Harm",
+      zone4: "IV. Reflection",
+      zone5: "V. Protection",
+      pledgeWall: "Pledge Wall"
     },
     hero: {
       eyebrow: "Digital Memorial & Intersectional Archive",
       title: "In Plain Sight",
-      subtitle: "A Memorial to Elderly Asian Women Targeted During COVID-19",
+      subtitle: "A Memorial to Elderly Asian Women Targeted During COVID-19: Intersectional Memory, Elder Protection, and Solidarity",
       lead: "During COVID-19, race, gender, and age converged to make elderly Asian American women uniquely vulnerable. Daytime street assaults happened in plain sight; verbal harassment followed them on buses and sidewalks; and many retreated into homebound isolation when neighbors and systems failed to protect them.",
-      ctaArchive: "Start reading",
-      ctaCandle: "Light a candle"
+      ctaArchive: "Enter the Memorial",
+      ctaCandle: "Light a Tribute Candle"
     },
     zone1: {
       kicker: "Zone 1 · Historical Roots",
       title: "From the Page Act to Perpetual Foreigners",
       intro: "Anti-Asian elder vulnerability did not begin in 2020. Exclusion laws and detention systems framed Asian women as suspect outsiders and denied families rooted belonging for generations.",
       stepperLabel: "Historical milestones",
-      prev: "Previous",
-      next: "Next",
-      readSource: "Read source",
-      quoteLabel: "Primary source",
-      mechanismLabel: "What it did",
-      lineageLabel: "Why it still matters"
+      prev: "← Previous",
+      next: "Next →",
+      readSource: "Inspect primary source →",
+      quoteLabel: "Archival Primary Source",
+      mechanismLabel: "Historical Mechanism",
+      lineageLabel: "Lineage to Today"
     },
     zone2: {
       kicker: "Zone 2 · Ideological & Institutional Oppression",
@@ -61,10 +61,10 @@ window.MemorialI18n = {
       kicker: "Zone 3 · Interpersonal & Intersectional Harm",
       title: "Race, Gender, and Age on Urban Streets",
       intro: "Stop AAPI Hate research and Bay Area street realities show how anti-Asian racism intersected with sexism and ageism—concentrating violence against women and elders in daylight, in plain sight.",
-      testimoniesTitle: "What people remembered",
+      testimoniesTitle: "Elder & Family Testimony Cards",
       testimoniesNote: "Anonymized composite testimonies reflecting documented experiences of Bay Area elders and families during 2020–2021.",
-      clickToExpand: "Show more",
-      clickToCollapse: "Show less",
+      clickToExpand: "Click to expand",
+      clickToCollapse: "Click to collapse",
       sourceNote: "Data synthesis from Stop AAPI Hate National Reports (March 2020 – December 2021 / 2020–2022 reporting waves)."
     },
     zone4: {
@@ -73,7 +73,7 @@ window.MemorialI18n = {
       intro: "When harassment happens in plain sight, the wound does not stop at the front door. Fear settles into silence, hyper-vigilance, and isolation inside the home.",
       mirrorLabel: "The Reflection Mirror",
       mirrorPrompt: "\"How did street harassment and fear of violence happening in plain sight force our grandmothers into isolation behind closed doors—and what responsibility do bystanders and communities share to end complicity?\"",
-      routineTitle: "Before and after",
+      routineTitle: "Before vs. After COVID-19 Daily Routine",
       routineToggleLabel: "Toggle before or after COVID-19 routine",
       before: "Before",
       after: "After",
@@ -85,25 +85,25 @@ window.MemorialI18n = {
       kicker: "Zone 5 · Resistance & Elder Protection",
       title: "Protecting Our Grandmothers",
       intro: "Our communities have never been passive. Across Oakland and San Francisco Chinatowns, neighbors walked beside elders, reported hate, and built cross-racial mutual aid.",
-      learnMore: "More info"
+      learnMore: "Learn more ↗"
     },
     wall: {
       kicker: "Community Action & Remembrance",
-      title: "Leave a pledge",
-      intro: "Honor a grandmother, pledge to walk with elders, or leave a message. Entries stay in your browser.",
+      title: "Elder Protection & Solidarity Pledge Wall",
+      intro: "Honor a grandmother, pledge to walk with elders, or leave a message of solidarity. Your card appears instantly below and saves in your browser.",
       formTitle: "Add Your Tribute or Pledge",
       nameLabel: "Name",
       namePlaceholder: "Anonymous Ally",
       cityLabel: "Neighborhood / City",
       cityPlaceholder: "e.g., Oakland Chinatown",
-      iconLegend: "Type",
-      iconCandle: "Candle",
+      iconLegend: "Tribute Icon",
+      iconCandle: "Tribute Candle",
       iconFlower: "Chrysanthemum",
-      iconSolidarity: "Pledge",
-      messageLabel: "Message",
-      messagePlaceholder: "Write a short note...",
-      submitBtn: "Post",
-      feedTitle: "Wall",
+      iconSolidarity: "Solidarity Pledge",
+      messageLabel: "Message *",
+      messagePlaceholder: "Honor a grandmother or pledge how you will show up for elders...",
+      submitBtn: "Post to Pledge Wall",
+      feedTitle: "Live Community Wall",
       filterLabel: "Filter pledge wall",
       filterAll: "All",
       filterCandle: "Candles",
@@ -111,22 +111,22 @@ window.MemorialI18n = {
       filterSolidarity: "Pledges",
       defaultName: "Anonymous Ally",
       errorRequired: "Please enter a message before posting.",
-      postedSuccess: "Added to the wall.",
+      postedSuccess: "Your tribute has been added to the Pledge Wall.",
       removeBtn: "Remove",
-      emptyWall: "Nothing here yet."
+      emptyWall: "No entries match this filter yet."
     },
     footer: {
-      title: "In Plain Sight",
-      credit: "Ethnic Studies final project. Sources below.",
-      sourcesTitle: "Sources",
-      source1: "Page Act of 1875",
-      source2: "Chinese Exclusion Act of 1882",
-      source3: "Executive Order 9066 (1942)",
+      title: "In Plain Sight: A Memorial to Elderly Asian Women Targeted During COVID-19",
+      credit: "Ethnic Studies Final Project — Intersectional Memory, Elder Protection, and Solidarity. Built as a static, accessible digital archive for community education and GitHub Pages hosting.",
+      sourcesTitle: "Primary Historical & Research Sources",
+      source1: "Page Act of 1875 (Ch. 141, 18 Stat. 477)",
+      source2: "Chinese Exclusion Act of 1882 (Ch. 126, 22 Stat. 58)",
+      source3: "Executive Order 9066 (1942), National Archives",
       source4: "Stop AAPI Hate National Reports (2020–2022)",
-      source5: "Ronald Takaki, A Different Mirror",
-      backToTop: "Back to top",
-      resources: "Protection",
-      pledge: "Pledges"
+      source5: "Ronald Takaki, A Different Mirror: A History of Multicultural America",
+      backToTop: "↑ Back to Top",
+      resources: "Elder Protection",
+      pledge: "Pledge Wall"
     }
   },
 
@@ -150,22 +150,22 @@ window.MemorialI18n = {
     },
     nav: {
       brand: "光天化日之下",
-      menu: "目錄",
-      zonesLabel: "章節",
-      zone1: "歷史",
-      zone2: "代罪羔羊",
-      zone3: "街頭",
-      zone4: "家門背後",
-      zone5: "守護",
-      pledgeWall: "承諾"
+      menu: "展區",
+      zonesLabel: "紀念展區",
+      zone1: "一、歷史根源",
+      zone2: "二、代罪羔羊",
+      zone3: "三、街頭傷害",
+      zone4: "四、反思之鏡",
+      zone5: "五、守護",
+      pledgeWall: "承諾牆"
     },
     hero: {
       eyebrow: "數碼紀念館與交叉性檔案",
       title: "光天化日之下",
-      subtitle: "新冠期間針對亞裔年長女性的紀念館",
+      subtitle: "新冠期間針對亞裔年長女性的紀念館：交叉記憶、長者保護與團結",
       lead: "新冠期間，種族、性別同年齡交織，令亞裔年長女性特別脆弱。光天化日之下嘅街頭襲擊、巴士同行人路上嘅言語騷擾，加上制度同鄰里未能保護，令好多祖母被迫困喺屋企。",
-      ctaArchive: "開始閱讀",
-      ctaCandle: "點亮燭光"
+      ctaArchive: "進入紀念館",
+      ctaCandle: "點亮致敬燭光"
     },
     zone1: {
       kicker: "第一展區 · 歷史根源",
@@ -281,22 +281,22 @@ window.MemorialI18n = {
     },
     nav: {
       brand: "光天化日之下",
-      menu: "目录",
-      zonesLabel: "章节",
-      zone1: "历史",
-      zone2: "替罪羊",
-      zone3: "街头",
-      zone4: "家门背后",
-      zone5: "守护",
-      pledgeWall: "承诺"
+      menu: "展区",
+      zonesLabel: "纪念展区",
+      zone1: "一、历史根源",
+      zone2: "二、替罪羊",
+      zone3: "三、街头伤害",
+      zone4: "四、反思之镜",
+      zone5: "五、守护",
+      pledgeWall: "承诺墙"
     },
     hero: {
       eyebrow: "数字纪念馆与交叉性档案",
       title: "光天化日之下",
-      subtitle: "新冠期间针对亚裔老年女性的纪念馆",
+      subtitle: "新冠期间针对亚裔老年女性的纪念馆：交叉记忆、长者保护与团结",
       lead: "新冠期间，种族、性别与年龄交汇，使亚裔老年女性格外脆弱。光天化日之下的街头袭击、公交与人行道上的言语骚扰，以及制度与邻里未能保护，迫使许多祖母困居家中。",
-      ctaArchive: "开始阅读",
-      ctaCandle: "点亮烛光"
+      ctaArchive: "进入纪念馆",
+      ctaCandle: "点亮致敬烛光"
     },
     zone1: {
       kicker: "第一展区 · 历史根源",
@@ -412,22 +412,22 @@ window.MemorialI18n = {
     },
     nav: {
       brand: "In Plain Sight",
-      menu: "Menu",
-      zonesLabel: "Mga bahagi",
-      zone1: "Kasaysayan",
-      zone2: "Pagsisi",
-      zone3: "Kalye",
-      zone4: "Sa loob ng bahay",
-      zone5: "Proteksyon",
-      pledgeWall: "Pangako"
+      menu: "Mga Sona",
+      zonesLabel: "Mga Sona ng Memorial",
+      zone1: "I. Kasaysayan",
+      zone2: "II. Pagsisi",
+      zone3: "III. Karahasan",
+      zone4: "IV. Pagninilay",
+      zone5: "V. Proteksyon",
+      pledgeWall: "Pader ng Pangako"
     },
     hero: {
       eyebrow: "Digital na Memorial at Interseksyonal na Arkibo",
       title: "In Plain Sight",
-      subtitle: "Isang Memorial para sa Nakatatandang Kababaihang Asyano noong COVID-19",
+      subtitle: "Isang Memorial para sa Nakatatandang Kababaihang Asyano noong COVID-19: Alaala, Proteksyon, at Pagkakaisa",
       lead: "Noong COVID-19, nagsanib ang lahi, kasarian, at edad upang gawing lubhang mahina ang mga nakatatandang kababaihang Asyano. Nangyari ang mga pag-atake sa araw sa harap ng madla; sinundan sila ng pang-aabuso sa tren at kalye; at marami ang napilitang manatili sa bahay.",
-      ctaArchive: "Magsimulang magbasa",
-      ctaCandle: "Magsindi ng kandila"
+      ctaArchive: "Pasukin ang Memorial",
+      ctaCandle: "Magsindi ng Kandila"
     },
     zone1: {
       kicker: "Sona 1 · Mga Ugat sa Kasaysayan",
@@ -543,22 +543,22 @@ window.MemorialI18n = {
     },
     nav: {
       brand: "In Plain Sight",
-      menu: "Menu",
-      zonesLabel: "Các phần",
-      zone1: "Lịch sử",
-      zone2: "Đổ lỗi",
-      zone3: "Đường phố",
-      zone4: "Sau cánh cửa",
-      zone5: "Bảo vệ",
-      pledgeWall: "Cam kết"
+      menu: "Phân khu",
+      zonesLabel: "Các phân khu tưởng niệm",
+      zone1: "I. Lịch sử",
+      zone2: "II. Đổ lỗi",
+      zone3: "III. Tổn hại",
+      zone4: "IV. Suy ngẫm",
+      zone5: "V. Bảo vệ",
+      pledgeWall: "Bức tường cam kết"
     },
     hero: {
       eyebrow: "Đài tưởng niệm số & Lưu trữ liên tầng",
       title: "In Plain Sight",
-      subtitle: "Đài tưởng niệm phụ nữ cao tuổi gốc Á bị nhắm đến trong COVID-19",
+      subtitle: "Đài tưởng niệm phụ nữ cao tuổi gốc Á bị nhắm đến trong COVID-19: Ký ức, Bảo vệ & Đoàn kết",
       lead: "Trong COVID-19, chủng tộc, giới tính và tuổi tác hội tụ khiến phụ nữ cao tuổi gốc Á đặc biệt dễ tổn thương. Các vụ hành hung ban ngày xảy ra giữa ban ngày; quấy rối theo họ trên xe buýt và vỉa hè; nhiều người buộc phải ở nhà khi hệ thống thất bại.",
-      ctaArchive: "Bắt đầu đọc",
-      ctaCandle: "Thắp nến"
+      ctaArchive: "Vào đài tưởng niệm",
+      ctaCandle: "Thắp nến tri ân"
     },
     zone1: {
       kicker: "Phân khu 1 · Nguồn gốc lịch sử",

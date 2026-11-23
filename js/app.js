@@ -395,8 +395,8 @@
     if (beforeBtn && afterBtn) {
       beforeBtn.setAttribute("aria-pressed", String(isBefore));
       afterBtn.setAttribute("aria-pressed", String(!isBefore));
-      beforeBtn.className = `text-btn${isBefore ? " is-active" : ""}`;
-      afterBtn.className = `text-btn${!isBefore ? " is-active" : ""}`;
+      beforeBtn.className = `btn btn-sm ${isBefore ? "btn-primary" : "btn-ghost"}`;
+      afterBtn.className = `btn btn-sm ${!isBefore ? "btn-primary" : "btn-ghost"}`;
     }
 
     const items = window.MemorialData.routines[state.routineMode];
@@ -431,6 +431,7 @@
       p.className = "resource-desc";
       p.textContent = localized(res.desc);
       const link = document.createElement("a");
+      link.className = "btn btn-ghost btn-sm";
       link.href = res.url;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
