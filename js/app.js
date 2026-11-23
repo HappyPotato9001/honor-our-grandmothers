@@ -998,8 +998,13 @@
       const footer = document.createElement("div");
       footer.className = "wall-card-footer";
       const authorSpan = document.createElement("span");
-      const displayName = entry.name || getI18n("wall.defaultName");
-      authorSpan.textContent = entry.city ? `${displayName} · ${entry.city}` : displayName;
+      const trimmedName = typeof entry.name === "string" ? entry.name.trim() : "";
+      const trimmedCity = typeof entry.city === "string" ? entry.city.trim() : "";
+      if (trimmedName) {
+        authorSpan.textContent = trimmedCity ? `${trimmedName} · ${trimmedCity}` : trimmedName;
+      } else {
+        authorSpan.textContent = trimmedCity || getI18n("wall.defaultName");
+      }
       footer.appendChild(authorSpan);
 
       if (!entry.isSeeded) {

@@ -999,14 +999,14 @@ window.MemorialData = {
       id: "seed-1",
       type: "candle",
       isSeeded: true,
-      name: "Mei-Fang L.",
+      name: "",
       city: "Oakland Chinatown",
       dedication: {
-        en: "Grandma Lin & all 8th Street elders",
-        yue: "林婆婆及第八街所有長者",
-        zh: "林奶奶及第八街所有长者",
-        tl: "Lola Lin at lahat ng nakatatanda sa 8th Street",
-        vi: "Bà Lin và tất cả các cụ phố số 8"
+        en: "Our grandmothers & all 8th Street elders",
+        yue: "我哋嘅祖母及第八街所有長者",
+        zh: "我们的祖母及第八街所有长者",
+        tl: "Ating mga lola at lahat ng nakatatanda sa 8th Street",
+        vi: "Các bà của chúng ta và tất cả các cụ phố số 8"
       },
       message: {
         en: "May our grandmothers always walk to the market without fear, surrounded by neighbors who know their names and watch out for them.",
@@ -1021,7 +1021,7 @@ window.MemorialData = {
       id: "seed-2",
       type: "pledge",
       isSeeded: true,
-      name: "Kenji & Mateo",
+      name: "",
       city: "San Francisco",
       dedication: "",
       message: {
@@ -1037,7 +1037,7 @@ window.MemorialData = {
       id: "seed-3",
       type: "message",
       isSeeded: true,
-      name: "Thảo Nguyễn",
+      name: "",
       city: "East Oakland",
       dedication: "",
       message: {
@@ -1053,7 +1053,7 @@ window.MemorialData = {
       id: "seed-4",
       type: "candle",
       isSeeded: true,
-      name: "Grace T.",
+      name: "",
       city: "Daly City",
       dedication: {
         en: "My Lola & Angel Island mothers",
@@ -1075,7 +1075,7 @@ window.MemorialData = {
       id: "seed-5",
       type: "pledge",
       isSeeded: true,
-      name: "Soraia & Sam",
+      name: "",
       city: "Berkeley / Oakland",
       dedication: "",
       message: {
