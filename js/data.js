@@ -1000,7 +1000,7 @@ window.MemorialData = {
       type: "candle",
       isSeeded: true,
       name: "",
-      city: "Oakland Chinatown",
+      city: "",
       dedication: {
         en: "Our grandmothers & all 8th Street elders",
         yue: "我哋嘅祖母及第八街所有長者",
@@ -1022,7 +1022,7 @@ window.MemorialData = {
       type: "pledge",
       isSeeded: true,
       name: "",
-      city: "San Francisco",
+      city: "",
       dedication: "",
       message: {
         en: "We pledge two Saturday mornings every month for Chinatown elder escort shifts and translating emergency transit flyers into Cantonese and Tagalog.",
@@ -1038,7 +1038,7 @@ window.MemorialData = {
       type: "message",
       isSeeded: true,
       name: "",
-      city: "East Oakland",
+      city: "",
       dedication: "",
       message: {
         en: "Solidarity across Vietnamese, Chinese, Filipino, Black, and Latine families makes our blocks safer. Our elders belong everywhere in this city.",
@@ -1054,7 +1054,7 @@ window.MemorialData = {
       type: "candle",
       isSeeded: true,
       name: "",
-      city: "Daly City",
+      city: "",
       dedication: {
         en: "My Lola & Angel Island mothers",
         yue: "我嘅婆婆同天使島嘅母親們",
@@ -1076,7 +1076,7 @@ window.MemorialData = {
       type: "pledge",
       isSeeded: true,
       name: "",
-      city: "Berkeley / Oakland",
+      city: "",
       dedication: "",
       message: {
         en: "Committed to checking in weekly on elderly neighbors who live alone, dropping off warm groceries, and sharing multilingual hotline cards.",

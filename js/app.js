@@ -998,32 +998,32 @@
       msgP.textContent = localized(entry.message);
       card.appendChild(msgP);
 
-      const footer = document.createElement("div");
-      footer.className = "wall-card-footer";
-      const authorSpan = document.createElement("span");
-      const trimmedName = typeof entry.name === "string" ? entry.name.trim() : "";
       const trimmedCity = typeof entry.city === "string" ? entry.city.trim() : "";
-      if (trimmedName) {
-        authorSpan.textContent = trimmedCity ? `${trimmedName} · ${trimmedCity}` : trimmedName;
-      } else {
-        authorSpan.textContent = trimmedCity || getI18n("wall.defaultName");
-      }
-      footer.appendChild(authorSpan);
+      if (trimmedCity || !entry.isSeeded) {
+        const footer = document.createElement("div");
+        footer.className = "wall-card-footer";
+        if (trimmedCity) {
+          const citySpan = document.createElement("span");
+          citySpan.textContent = trimmedCity;
+          footer.appendChild(citySpan);
+        }
 
-      if (!entry.isSeeded) {
-        const delBtn = document.createElement("button");
-        delBtn.type = "button";
-        delBtn.className = "wall-delete-btn";
-        delBtn.textContent = getI18n("wall.removeBtn");
-        delBtn.addEventListener("click", () => {
-          state.userWallEntries = state.userWallEntries.filter((u) => u.id !== entry.id);
-          safeStorageSet(STORAGE_KEYS.pledgeWall, JSON.stringify(state.userWallEntries));
-          renderPledgeWall();
-        });
-        footer.appendChild(delBtn);
+        if (!entry.isSeeded) {
+          const delBtn = document.createElement("button");
+          delBtn.type = "button";
+          delBtn.className = "wall-delete-btn";
+          delBtn.textContent = getI18n("wall.removeBtn");
+          delBtn.addEventListener("click", () => {
+            state.userWallEntries = state.userWallEntries.filter((u) => u.id !== entry.id);
+            safeStorageSet(STORAGE_KEYS.pledgeWall, JSON.stringify(state.userWallEntries));
+            renderPledgeWall();
+          });
+          footer.appendChild(delBtn);
+        }
+
+        card.appendChild(footer);
       }
 
-      card.appendChild(footer);
       listEl.appendChild(card);
     });
   }
@@ -1184,7 +1184,6 @@
     document.getElementById("pledge-form")?.addEventListener("submit", (e) => {
       e.preventDefault();
       const msgEl = document.getElementById("pledge-message");
-      const nameEl = document.getElementById("pledge-name");
       const cityEl = document.getElementById("pledge-city");
       const dedEl = document.getElementById("pledge-dedication");
       const errEl = document.getElementById("pledge-form-error");
@@ -1206,7 +1205,7 @@
         id: `user-${Date.now()}`,
         type: typeEl ? typeEl.value : "candle",
         isSeeded: false,
-        name: nameEl ? nameEl.value.trim() : "",
+        name: "",
         city: cityEl ? cityEl.value.trim() : "",
         dedication: dedEl ? dedEl.value.trim() : "",
         message,
