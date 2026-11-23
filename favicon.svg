@@ -1,5 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="In Plain Sight">
-  <rect width="64" height="64" rx="8" fill="#1A2330"/>
-  <rect x="18" y="18" width="12" height="12" fill="#9E1B2E"/>
-  <rect x="34" y="34" width="12" height="12" fill="#2F5D62"/>
+  <rect width="64" height="64" fill="#111"/>
+  <text x="32" y="40" text-anchor="middle" fill="#fff" font-family="Georgia, serif" font-size="22" font-weight="700">IP</text>
 </svg>
