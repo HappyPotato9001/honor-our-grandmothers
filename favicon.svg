@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Honor Our Grandmothers Tribute Candle">
+  <rect width="64" height="64" rx="14" fill="#0F172A"/>
+  <circle cx="32" cy="22" r="16" fill="#D97706" opacity="0.22"/>
+  <path d="M32 9c3.5 5 6 8.5 6 12.2a6 6 0 1 1-12 0C26 17.5 28.5 14 32 9z" fill="#FBBF24"/>
+  <path d="M32 14c1.8 2.8 3 4.8 3 6.8a3 3 0 1 1-6 0c0-2 1.2-4 3-6.8z" fill="#FEF3C7"/>
+  <rect x="25" y="29" width="14" height="22" rx="2.5" fill="#F8FAFC"/>
+  <rect x="25" y="29" width="14" height="4" rx="1" fill="#E2E8F0"/>
+  <rect x="20" y="51" width="24" height="4" rx="2" fill="#D97706"/>
+</svg>
