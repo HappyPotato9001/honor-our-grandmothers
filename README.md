@@ -1,6 +1,6 @@
-# Targeted in Plain Sight: Anti-Asian Hate Against Elderly Women During COVID-19
+# Honor Our Grandmothers: Intersectional Memory, Elder Protection, and Solidarity
 
-A responsive, accessible single-page application (SPA) web memorial and digital archive examining anti-Asian hate against elderly women during COVID-19—tracing historical exclusion, pandemic scapegoating, language-access barriers, and community elder protection. Built as a zero-build static web application optimized for **GitHub Pages**.
+**A Digital Memorial on Anti-Asian Hate Toward Elderly Women During COVID-19** — a responsive, accessible single-page application (SPA) web memorial and digital archive tracing historical exclusion, pandemic scapegoating, language-access barriers, and community elder protection. Built as a zero-build static web application optimized for **GitHub Pages**.
 
 ## Core Features
 

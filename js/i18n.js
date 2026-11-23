@@ -17,7 +17,7 @@ window.MemorialI18n = {
       langAnnounce: "Language switched to English"
     },
     nav: {
-      brand: "Targeted in Plain Sight",
+      brand: "Honor Our Grandmothers",
       menu: "Zones",
       zonesLabel: "Memorial Zones",
       zone1: "I. Foundations",
@@ -29,8 +29,8 @@ window.MemorialI18n = {
     },
     hero: {
       eyebrow: "Digital Memorial & Intersectional Archive",
-      title: "Targeted in Plain Sight",
-      subtitle: "Anti-Asian Hate Against Elderly Women During COVID-19",
+      title: "Honor Our Grandmothers",
+      subtitle: "A Digital Memorial on Anti-Asian Hate Toward Elderly Women During COVID-19",
       lead: "For more than a century and a half, laws, media narratives, and street violence have converged on Asian women and elders—compounding race, gender, age, and language barriers. This archive traces that history from the 1875 Page Act to Bay Area Chinatowns today, honoring our grandmothers' resilience and mobilizing community care.",
       ctaArchive: "Begin the Memorial Archive",
       ctaCandle: "Light a Tribute Candle",
@@ -102,10 +102,10 @@ window.MemorialI18n = {
     },
     zone4: {
       kicker: "Zone 4 · Internalized Oppression & Reflection",
-      title: "Behind Closed Doors",
+      title: "Behind Closed Doors: Isolation & Self-Reflection",
       intro: "When headlines repeatedly cast Asian communities as foreign or imperiled, the impact does not stop at the front door. It settles into silence, hyper-vigilance, and isolation inside the home.",
       mirrorLabel: "The Reflection Mirror",
-      mirrorPrompt: "\"How do historical stereotypes and gendered violence shape the fear and isolation experienced by our grandmothers behind closed doors?\"",
+      mirrorPrompt: "\"How do historical stereotypes and gendered violence shape the fear, isolation, and hyper-vigilance experienced by our grandmothers behind closed doors, and how can communities counter complicity?\"",
       drawerTitle: "Quiet Reflection Space",
       cyclePrompt: "Next Reflection Question",
       inputLabel: "Write a reflection",
@@ -136,7 +136,7 @@ window.MemorialI18n = {
     },
     wall: {
       kicker: "Community Action & Remembrance",
-      title: "Community Solidarity & Elder Support Pledge Wall",
+      title: "Elder Protection & Solidarity Pledge Wall",
       intro: "Light a virtual tribute candle for an elder, pledge volunteer escort or translation support, or leave a message of intergenerational solidarity. Entries save locally in your browser and appear immediately below.",
       statsLabel: "Community tribute summary",
       statCandles: "Tribute Candles Lit",
@@ -174,7 +174,7 @@ window.MemorialI18n = {
       justNow: "Just now"
     },
     footer: {
-      title: "Targeted in Plain Sight: Anti-Asian Hate Against Elderly Women During COVID-19",
+      title: "Honor Our Grandmothers: Intersectional Memory, Elder Protection, and Solidarity",
       note: "Built as a static, accessible digital archive for community education, intergenerational remembrance, and GitHub Pages hosting.",
       backToTop: "↑ Back to Top",
       resources: "Elder Resources",
@@ -200,7 +200,7 @@ window.MemorialI18n = {
       langAnnounce: "語言已切換為廣東話（繁體中文）"
     },
     nav: {
-      brand: "眾目睽睽下的針對",
+      brand: "向祖母致敬",
       menu: "展區目錄",
       zonesLabel: "紀念展區",
       zone1: "一、歷史根源",
@@ -212,8 +212,8 @@ window.MemorialI18n = {
     },
     hero: {
       eyebrow: "數碼紀念館與交叉性歷史檔案",
-      title: "眾目睽睽下的針對",
-      subtitle: "新冠疫情期間針對亞裔年長女性的仇恨與暴力",
+      title: "向我們的祖母致敬",
+      subtitle: "新冠疫情期間針對亞裔年長女性仇恨的數碼紀念館",
       lead: "一個半世紀以來，法律、媒體論述同街頭暴力一直交織咁壓迫亞裔女性同長者——種族、性別、年齡同語言障礙互相疊加。呢個檔案館由 1875 年《佩奇法案》追溯到今日三藩市同屋崙華埠，向我哋阿嫲同婆婆嘅堅韌致敬，並凝聚社區守護力量。",
       ctaArchive: "進入紀念檔案館",
       ctaCandle: "點亮致敬燭光",
@@ -285,10 +285,10 @@ window.MemorialI18n = {
     },
     zone4: {
       kicker: "第四展區 · 內化壓迫與深度反思",
-      title: "深鎖家門之後",
+      title: "深鎖家門之後：孤立與自我反思",
       intro: "當新聞標題不斷將亞裔社群描繪成外來者或危險目標，傷害唔會止於大門之外。佢會滲入屋企入面，變成沉默、高度戒備同孤立。",
       mirrorLabel: "反思之鏡",
-      mirrorPrompt: "「歷史刻板印象同針對性別的暴力，如何塑造我哋祖母喺深鎖家門背後所承受的恐懼同孤立？」",
+      mirrorPrompt: "「歷史刻板印象同針對性別的暴力，如何塑造我哋祖母喺深鎖家門背後所承受的恐懼、孤立同高度戒備？社區又點樣可以打破旁觀同共謀？」",
       drawerTitle: "靜思與寫作空間",
       cyclePrompt: "換下一條反思問題",
       inputLabel: "寫下反思",
@@ -319,7 +319,7 @@ window.MemorialI18n = {
     },
     wall: {
       kicker: "社區行動與紀念",
-      title: "社區團結與護老支持承諾牆",
+      title: "護老與團結承諾牆",
       intro: "為長者點亮一盞虛擬致敬燭光、承諾擔任義務護送或翻譯支援，或者留下一句跨代團結嘅說話。留言會即時顯示並儲存喺你嘅瀏覽器入面。",
       statsLabel: "社區致敬統計",
       statCandles: "已點亮致敬燭光",
@@ -357,7 +357,7 @@ window.MemorialI18n = {
       justNow: "剛剛"
     },
     footer: {
-      title: "眾目睽睽下的針對：新冠疫情期間針對亞裔年長女性的仇恨與暴力",
+      title: "向我們的祖母致敬：交叉記憶、長者保護與跨代團結",
       note: "專為社區教育、跨代追思及 GitHub Pages 靜態託管而設的無障礙數碼檔案館。",
       backToTop: "↑ 返回頂部",
       resources: "護老資源",
@@ -383,7 +383,7 @@ window.MemorialI18n = {
       langAnnounce: "语言已切换为普通话（简体中文）"
     },
     nav: {
-      brand: "众目睽睽下的针对",
+      brand: "向祖母致敬",
       menu: "展区导航",
       zonesLabel: "纪念展区",
       zone1: "一、历史根源",
@@ -395,8 +395,8 @@ window.MemorialI18n = {
     },
     hero: {
       eyebrow: "数字纪念馆与交叉性历史档案",
-      title: "众目睽睽下的针对",
-      subtitle: "新冠疫情期间针对亚裔老年女性的仇恨与暴力",
+      title: "向我们的祖母致敬",
+      subtitle: "新冠疫情期间针对亚裔老年女性仇恨的数字纪念馆",
       lead: "一个半世纪以来，法律条文、媒体叙事与街头暴力持续交织地压迫亚裔女性与长者——种族、性别、年龄与语言障碍层层叠加。本档案馆从 1875 年《佩奇法案》追溯至今日的湾区华埠，致敬祖母们的坚韧生命力，并凝聚社区守护行动。",
       ctaArchive: "进入纪念档案馆",
       ctaCandle: "点亮致敬烛光",
@@ -468,10 +468,10 @@ window.MemorialI18n = {
     },
     zone4: {
       kicker: "第四展区 · 内化压迫与深度反思",
-      title: "紧闭家门之后",
+      title: "紧闭家门之后：孤立与自我反思",
       intro: "当媒体头条反复将亚裔群体描绘成外来者或受害目标，创伤并不会止步于家门之外。它会化作室内的沉默、高度警觉与孤立。",
       mirrorLabel: "反思之镜",
-      mirrorPrompt: "“历史刻板印象与基于性别的暴力，如何塑造我们的祖母在紧闭家门背后所经历的恐惧与孤立？”",
+      mirrorPrompt: "“历史刻板印象与基于性别的暴力，如何塑造我们的祖母在紧闭家门背后所经历的恐惧、孤立与高度警觉？社区又该如何打破冷漠与共谋？”",
       drawerTitle: "静思与书写空间",
       cyclePrompt: "换下一条反思问题",
       inputLabel: "写下反思",
@@ -502,7 +502,7 @@ window.MemorialI18n = {
     },
     wall: {
       kicker: "社区行动与纪念",
-      title: "社区团结与护老支持承诺墙",
+      title: "护老与团结承诺墙",
       intro: "为长者点亮一盏虚拟致敬烛光、承诺提供志愿护送或翻译协助，或留下一段跨代团结寄语。提交内容将保存在本地浏览器并立即显示在下方。",
       statsLabel: "社区致敬统计",
       statCandles: "已点亮致敬烛光",
@@ -540,7 +540,7 @@ window.MemorialI18n = {
       justNow: "刚刚"
     },
     footer: {
-      title: "众目睽睽下的针对：新冠疫情期间针对亚裔老年女性的仇恨与暴力",
+      title: "向我们的祖母致敬：交叉记忆、长者保护与跨代团结",
       note: "为社区教育、跨代缅怀与 GitHub Pages 静态托管而构建的无障碍数字档案馆。",
       backToTop: "↑ 返回顶部",
       resources: "护老资源",
@@ -566,7 +566,7 @@ window.MemorialI18n = {
       langAnnounce: "Pinalitan ang wika sa Tagalog"
     },
     nav: {
-      brand: "Pinuntirya sa Hayag",
+      brand: "Parangalan ang Ating mga Lola",
       menu: "Mga Sona",
       zonesLabel: "Mga Sona ng Memorial",
       zone1: "I. Kasaysayan",
@@ -578,8 +578,8 @@ window.MemorialI18n = {
     },
     hero: {
       eyebrow: "Digital na Memorial at Interseksyonal na Arkibo",
-      title: "Pinuntirya sa Hayag",
-      subtitle: "Poot Laban sa Nakatatandang Kababaihang Asyano Noong COVID-19",
+      title: "Parangalan ang Ating mga Lola",
+      subtitle: "Isang Digital na Memorial sa Poot Laban sa Nakatatandang Kababaihang Asyano Noong COVID-19",
       lead: "Sa loob ng mahigit isang siglo at kalahati, ang mga batas, naratibo sa media, at karahasan sa lansangan ay nagtagpo laban sa kababaihang Asyano at mga nakatatanda—pinagsasama ang diskriminasyon sa lahi, kasarian, edad, at wika. Sinusundan ng arkibong ito ang kasaysayan mula sa Page Act ng 1875 hanggang sa mga Chinatown ng Bay Area ngayon.",
       ctaArchive: "Simulan ang Arkibo ng Memorial",
       ctaCandle: "Magsindi ng Kandila ng Pagpupugay",
@@ -651,10 +651,10 @@ window.MemorialI18n = {
     },
     zone4: {
       kicker: "Sona 4 · Panloob na Pasanin at Pagninilay",
-      title: "Sa Likod ng Saradong Pinto",
+      title: "Sa Likod ng Saradong Pinto: Pag-iisa at Pagninilay",
       intro: "Kapag paulit-ulit na inilalarawan ng mga balita na dayuhan o nasa panganib ang ating komunidad, pumapasok ang takot at pananahimik sa loob mismo ng tahanan.",
       mirrorLabel: "Ang Salamin ng Pagninilay",
-      mirrorPrompt: "\"Paano hinuhubog ng mga makasaysayang stereotype at karahasang nakabatay sa kasarian ang takot at pag-iisa ng ating mga lola sa likod ng saradong pinto?\"",
+      mirrorPrompt: "\"Paano hinuhubog ng mga makasaysayang stereotype at karahasang nakabatay sa kasarian ang takot, pag-iisa, at matinding pagbabantay ng ating mga lola sa likod ng saradong pinto, at paano malalabanan ng komunidad ang pananahimik?\"",
       drawerTitle: "Tahimik na Espasyo ng Pagninilay",
       cyclePrompt: "Susunod na Tanong",
       inputLabel: "Magsulat ng pagninilay",
@@ -685,7 +685,7 @@ window.MemorialI18n = {
     },
     wall: {
       kicker: "Pagkilos ng Komunidad at Pag-alaala",
-      title: "Pader ng Pakikiisa at Pangako ng Suporta sa Nakatatanda",
+      title: "Pader ng Pangako para sa Proteksyon ng Nakatatanda at Pagkakaisa",
       intro: "Magsindi ng virtual na kandila para sa isang lola o lolo, mangakong magboluntaryo, o mag-iwan ng mensahe ng pakikiisa. Agad na lilitaw at mase-save sa iyong browser ang bawat mensahe.",
       statsLabel: "Buod ng mga pagpupugay",
       statCandles: "Kandilang Sinindihan",
@@ -723,7 +723,7 @@ window.MemorialI18n = {
       justNow: "Ngayon lang"
     },
     footer: {
-      title: "Pinuntirya sa Hayag: Poot Laban sa Nakatatandang Kababaihang Asyano Noong COVID-19",
+      title: "Parangalan ang Ating mga Lola: Interseksyonal na Alaala, Proteksyon sa Nakatatanda, at Pagkakaisa",
       note: "Ginawa bilang static at accessible na digital na arkibo para sa edukasyon ng komunidad at GitHub Pages.",
       backToTop: "↑ Bumalik sa Itaas",
       resources: "Mga Tulong",
@@ -749,7 +749,7 @@ window.MemorialI18n = {
       langAnnounce: "Đã chuyển ngôn ngữ sang Tiếng Việt"
     },
     nav: {
-      brand: "Bị Nhắm Tới Giữa Ban Ngày",
+      brand: "Tôn Vinh Các Bà",
       menu: "Phân khu",
       zonesLabel: "Các phân khu tưởng niệm",
       zone1: "I. Nền tảng lịch sử",
@@ -761,8 +761,8 @@ window.MemorialI18n = {
     },
     hero: {
       eyebrow: "Đài tưởng niệm số & Lưu trữ liên tầng",
-      title: "Bị Nhắm Tới Giữa Ban Ngày",
-      subtitle: "Thù Ghét Chống Người Gốc Á Nhắm Vào Phụ Nữ Cao Tuổi Thời COVID-19",
+      title: "Tôn Vinh Các Bà Của Chúng Ta",
+      subtitle: "Đài Tưởng Niệm Số Về Thù Ghét Chống Phụ Nữ Cao Tuổi Gốc Á Trong Đại Dịch COVID-19",
       lead: "Hơn một thế kỷ rưỡi qua, luật pháp, truyền thông và bạo lực đường phố đã dồn nén lên phụ nữ và người cao tuổi gốc Á—chồng chất rào cản chủng tộc, giới tính, tuổi tác và ngôn ngữ. Kho lưu trữ này lần theo lịch sử từ Đạo luật Page 1875 đến các khu phố Tàu Vùng Vịnh hôm nay.",
       ctaArchive: "Khám phá kho lưu trữ",
       ctaCandle: "Thắp nến tri ân",
@@ -834,10 +834,10 @@ window.MemorialI18n = {
     },
     zone4: {
       kicker: "Phân khu 4 · Áp bức nội tâm hóa & Suy ngẫm",
-      title: "Sau Cánh Cửa Khép Kín",
+      title: "Sau Cánh Cửa Khép Kín: Cô Lập & Tự Suy Ngẫm",
       intro: "Khi các tiêu đề liên tục khắc họa cộng đồng gốc Á là ngoại lai hoặc gặp nguy hiểm, nỗi sợ hãi không dừng lại ngoài cửa—nó lắng đọng thành sự im lặng và cô lập bên trong ngôi nhà.",
       mirrorLabel: "Chiếc Gương Suy Ngẫm",
-      mirrorPrompt: "\"Những định kiến lịch sử và bạo lực giới đã định hình nỗi sợ hãi và sự cô lập mà các bà của chúng ta phải chịu đựng sau cánh cửa khép kín như thế nào?\"",
+      mirrorPrompt: "\"Những định kiến lịch sử và bạo lực giới đã định hình nỗi sợ hãi, sự cô lập và cảnh giác cao độ mà các bà phải chịu đựng sau cánh cửa khép kín như thế nào, và cộng đồng có thể đối mặt với sự đồng lõa ra sao?\"",
       drawerTitle: "Không gian suy ngẫm tĩnh lặng",
       cyclePrompt: "Câu hỏi suy ngẫm tiếp theo",
       inputLabel: "Viết suy ngẫm",
@@ -868,7 +868,7 @@ window.MemorialI18n = {
     },
     wall: {
       kicker: "Hành động cộng đồng & Tưởng nhớ",
-      title: "Bức Tường Đoàn Kết & Cam Kết Hỗ Trợ Người Cao Tuổi",
+      title: "Bức Tường Cam Kết Bảo Vệ Người Cao Tuổi & Đoàn Kết",
       intro: "Thắp một ngọn nến tri ân cho người cao tuổi, cam kết hỗ trợ hộ tống hoặc phiên dịch, hoặc để lại lời nhắn đoàn kết liên thế hệ. Bài viết được lưu cục bộ trên trình duyệt và hiển thị ngay bên dưới.",
       statsLabel: "Thống kê tri ân cộng đồng",
       statCandles: "Ngọn nến đã thắp",
@@ -906,7 +906,7 @@ window.MemorialI18n = {
       justNow: "Vừa xong"
     },
     footer: {
-      title: "Bị Nhắm Tới Giữa Ban Ngày: Thù Ghét Chống Người Gốc Á Nhắm Vào Phụ Nữ Cao Tuổi Thời COVID-19",
+      title: "Tôn Vinh Các Bà: Ký ức liên tầng, Bảo vệ người cao tuổi và Đoàn kết",
       note: "Được xây dựng như một kho lưu trữ số tĩnh, dễ tiếp cận cho giáo dục cộng đồng và GitHub Pages.",
       backToTop: "↑ Lên đầu trang",
       resources: "Nguồn hỗ trợ",

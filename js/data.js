@@ -234,11 +234,11 @@ window.MemorialData = {
           vi: "Luận điệu đại dịch COVID-19 năm 2020"
         },
         quote: {
-          en: "Political labeling of COVID-19 as the 'China virus' paired with stock photos of Chinatown elders fueled perceptions that Asian elders carried disease.",
-          yue: "政客將新冠病毒標籤為「中國病毒」，加上媒體頻繁使用華埠長者配圖，令亞裔長者被誤認為病毒載體。",
-          zh: "政客将新冠病毒贴上“中国病毒”标签，加之媒体滥用华埠长者照片，助长了将亚裔长者视为病源的偏见。",
-          tl: "Ang pagtawag sa COVID-19 bilang 'China virus' kasabay ng mga larawan ng Chinatown ay nagpasiklab ng pag-atake sa mga nakatatandang Asyano.",
-          vi: "Việc gọi COVID-19 là 'virus Trung Quốc' kèm hình ảnh minh họa người cao tuổi Chinatown đã thổi bùng tâm lý coi người gốc Á là mầm bệnh."
+          en: "Political labeling of COVID-19 as the 'China virus' and 'Kung Flu' paired with stock photos of Chinatown elders fueled perceptions that Asian elders carried disease.",
+          yue: "政客將新冠病毒標籤為「中國病毒」及「功夫流感」，加上媒體頻繁使用華埠長者配圖，令亞裔長者被誤認為病毒載體。",
+          zh: "政客将新冠病毒贴上“中国病毒”与“功夫流感”标签，加之媒体滥用华埠长者照片，助长了将亚裔长者视为病源的偏见。",
+          tl: "Ang pagtawag sa COVID-19 bilang 'China virus' at 'Kung Flu' kasabay ng mga larawan ng Chinatown ay nagpasiklab ng pag-atake sa mga nakatatandang Asyano.",
+          vi: "Việc gọi COVID-19 là 'virus Trung Quốc' và 'Kung Flu' kèm hình ảnh minh họa người cao tuổi Chinatown đã thổi bùng tâm lý coi người gốc Á là mầm bệnh."
         },
         context: {
           en: "Elders wearing masks for community safety became primary targets of verbal spitting, shoving, and street assaults.",
@@ -247,7 +247,7 @@ window.MemorialData = {
           tl: "Ang mga nakatatandang nagsuot ng mask para sa kaligtasan ay naging pangunahing target ng pandudura at panunulak.",
           vi: "Các cụ cao tuổi đeo khẩu trang để bảo vệ cộng đồng lại trở thành mục tiêu bị khạc nhổ, xô đẩy và hành hung."
         },
-        echoWords: ["China virus", "中國病毒", "中国病毒", "virus Trung Quốc"]
+        echoWords: ["China virus", "Kung Flu", "中國病毒", "功夫流感", "中国病毒", "功夫流感", "virus Trung Quốc"]
       }
     },
     {
